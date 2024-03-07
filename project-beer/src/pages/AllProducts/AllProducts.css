@@ -1,0 +1,30 @@
+.all-beers article {
+  display: flex;
+  align-items: center;
+  padding: 30px 30px;
+}
+.all-beers {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.all-beers img {
+  width: 40%;
+}
+h1 {
+  text-align: center;
+}
+.all-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.all-content a {
+  background-color: #ffca42;
+  color: white;
+  width: fit-content;
+  font-size: 25px;
+  padding: 7px 5px;
+  border-radius: 6px;
+}
